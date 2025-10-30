@@ -1,0 +1,27 @@
+{
+  "name": "fhevm-universal-kit",
+  "version": "0.1.0",
+  "description": "Universal FHEVM SDK with a private voting dApp example",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && tsc -p tsconfig.json",
+    "start": "next start",
+    "lint": "eslint . --ext .ts,.tsx",
+    "test": "echo \"No tests specified\""
+  },
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "next": "14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "^3.3.0",
+    "shadcn-ui": "^0.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.0",
+    "@types/react": "^18.2.14",
+    "@types/node": "^20.4.2",
+    "eslint": "^8.47.0"
+  }
+}
